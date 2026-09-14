@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Vaudeville Villa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <div class="container mt-5">
+<body class="cool-font">
+    <?php include __DIR__ . '/components/nav.php' ?>
+
+    <div class="container mt-5" style="background-color:rgb(238, 251, 228)">
         <h1 class="center">Welcome to the Vaudeville Villa!</h1>
-        <h3 class="center">Current domain of Viktor Gray</h3>
+        <h4 class="center">*current domain of Viktor Gray</h4>
     </div>
     
 
